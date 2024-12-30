@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="node_modules/aos/dist/aos.css" />
+		<script src="node_modules/aos/dist/aos.js"></script>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+		<script src="https://cdn.tailwindcss.com"></script>
+		<link
+			href="./output.css"
+			rel="stylesheet" />
+
+		<link
+			href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+			rel="stylesheet" />
+		<title>Mark Lee's Bio</title>
+	</head>
+	<body class="">
+		<nav class="p-5 bg-slate-300 m-8 rounded-2xl border-2 border-slate-400 flex flex-row justify-between items-center shadow-md">
+			<h1 class="text-slate-600 font-bold text-3xl mx-5">Mark Lee</h1>
+			<ul class="flex flex-row justify-between items-center space-x-10 text-slate-500 font-medium mx-5">
+				<li class="hover:font-semibold hover:text-slate-600 transition duration-400"><a href="#home">Home</a></li>
+				<li class="hover:font-semibold hover:text-slate-600 transition duration-400"><a href="#about">About</a></li>
+				<li class="hover:font-semibold hover:text-slate-600 transition duration-400"><a href="#debuts">Debuts</a></li>
+			</ul>
+		</nav>
+		<!--home-->
+		<main
+			class="my-16 flex flex-col justify-center items-center"
+			data-aos="fade-up"
+			data-aos-delay="200"
+			data-aos-duration="1000"
+			id="main">
+			<div
+				class="bg-slate-300 w-full items-center justify-center text-center py-6 space-y-2"
+				id="home">
+				<h1
+					class="font-bold text-3xl text-slate-600"
+					id="title">
+					Mark Lee
+				</h1>
+				<p class="text-slate-500 text-xs">The man who debuts million times</p>
+			</div>
+			<div
+				class="my-10 justify-center items-center flex flex-col space-y-2"
+				id="img-div">
+				<img
+					src="/marklee-main.jpg"
+					alt="Mark Lee"
+					class="rounded-lg shadow-lg w-9/12"
+					id="image" />
+				<p
+					class="text-slate-600 text-xs"
+					id="img-caption">
+					QTAH Mark Lee adalah cowoku
+				</p>
+			</div>
+			<!--about	-->
+			<div
+				class="bg-slate-300 w-full py-6 space-y-2 my-16"
+				data-aos="fade-up"
+				data-aos-delay="200"
+				data-aos-duration="1000">
+				<h1
+					class="font-bold text-3xl text-slate-600 text-center"
+					id="about">
+					About
+				</h1>
+				<ul class="list-disc text-slate-500 text-xs block justify-start items-start w-4/12 mx-auto">
+					<li class="list-disc text-left">Lorem ipsum dolor sit amet</li>
+					<li class="list-disc text-left">Lorem ipsum dolor sit amet</li>
+					<li class="list-disc text-left">Lorem ipsum dolor sit amet</li>
+					<li class="list-disc text-left">Lorem ipsum dolor sit amet</li>
+					<li class="list-disc text-left">Lorem ipsum dolor sit amet</li>
+				</ul>
+			</div>
+			<!--debuts-->
+			<div
+				class="bg-slate-300 w-full py-6 space-y-2 my-16"
+				data-aos="fade-up"
+				data-aos-delay="200"
+				data-aos-duration="1000">
+				<h1
+					class="font-bold text-3xl text-slate-600 text-center"
+					id="debuts">
+					Mark Lee Debuts Timeline
+				</h1>
+				<ul
+					class="list-disc text-slate-500 text-xs block justify-start items-start w-4/12 mx-auto"
+					id="tribute-info">
+					<li class="list-disc text-left">Lorem ipsum dolor sit amet</li>
+					<li class="list-disc text-left">Lorem ipsum dolor sit amet</li>
+					<li class="list-disc text-left">Lorem ipsum dolor sit amet</li>
+					<li class="list-disc text-left">Lorem ipsum dolor sit amet</li>
+					<li class="list-disc text-left">Lorem ipsum dolor sit amet</li>
+				</ul>
+				<p>mark lee's quotes rata kiri tapi di tengah</p>
+			</div>
+			<!--mark lee's photo-->
+			<div
+				class="bg-slate-300 w-full py-6 space-y-2 my-16"
+				data-aos="fade-up"
+				data-aos-delay="200"
+				data-aos-duration="1000">
+				<h1
+					class="font-bold text-3xl text-slate-600 text-center"
+					id="debuts">
+					Pictures of Mark Lee
+				</h1>
+			</div>
+		</main>
+		<footer
+			class="bg-slate-300 my-10 mt-6 mx-auto w-1/6 justify-center items-center flex rounded-xl py-2 px-4"
+			id="tribute-link">
+			ini footer
+		</footer>
+	</body>
+</html>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+	AOS.init();
+</script>
